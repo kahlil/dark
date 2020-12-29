@@ -1,6 +1,7 @@
-import { Container, Heading, VStack } from "@chakra-ui/react";
+import { NextPage } from 'next'
+import { Container, Heading, VStack } from '@chakra-ui/react'
 
-const Home = () => {
+const Home: NextPage = () => {
   return (
     <Container>
       <VStack>
@@ -9,7 +10,7 @@ const Home = () => {
         </Heading>
       </VStack>
     </Container>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

@@ -1,7 +1,7 @@
-import Head from "next/head";
-import { ChakraProvider, ColorModeScript } from "@chakra-ui/react";
+import Head from 'next/head'
+import { ChakraProvider, ColorModeScript } from '@chakra-ui/react'
 
-import customTheme from "../chakra-ui/customTheme";
+import customTheme from '../chakra-ui/customTheme'
 
 function App({ Component, pageProps }) {
   return (
@@ -15,7 +15,7 @@ function App({ Component, pageProps }) {
         <Component {...pageProps} />
       </ChakraProvider>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
