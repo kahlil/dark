@@ -1,7 +1,6 @@
-import { NextPage } from 'next'
 import { Container, Heading, VStack } from '@chakra-ui/react'
 
-const Home: NextPage = () => {
+function Home() {
   return (
     <Container>
       <VStack>

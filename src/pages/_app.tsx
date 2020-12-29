@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import { ChakraProvider, ColorModeScript } from '@chakra-ui/react'
+import type { AppProps } from 'next/app'
 
-import customTheme from '../chakra-ui/customTheme'
+import customTheme from '../grit-ui/customTheme'
 
-function App({ Component, pageProps }) {
+function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
