@@ -9,7 +9,9 @@
     "plugin:@typescript-eslint/recommended"
   ],
   "rules": {
-    "react/prop-types": 0
+    "react/prop-types": 0,
+    "react/react-in-jsx-scope": 0,
+    "@typescript-eslint/explicit-module-boundary-types": 0
   },
   "settings": {
     "react": {
