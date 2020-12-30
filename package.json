@@ -5,7 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:ci": "jest --ci --coverage"
   },
   "dependencies": {
     "@chakra-ui/icons": "1.0.2",
@@ -15,6 +18,8 @@
     "@testing-library/dom": "7.29.0",
     "@testing-library/jest-dom": "5.11.8",
     "@testing-library/react": "11.2.2",
+    "@testing-library/user-event": "12.6.0",
+    "@types/jest": "26.0.19",
     "@types/node": "14.14.16",
     "@types/react": "17.0.0",
     "@typescript-eslint/eslint-plugin": "4.11.1",
