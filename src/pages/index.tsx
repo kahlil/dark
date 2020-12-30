@@ -121,7 +121,7 @@ function Home() {
               </Button>
             </Stack>
 
-            <Text pb={2}>Woah! A Chakra UI slider:</Text>
+            <Text py={2}>Woah! A Chakra UI slider:</Text>
             <Slider
               pb={2}
               aria-label="slider-ex-2"
@@ -134,14 +134,16 @@ function Home() {
               <SliderThumb />
             </Slider>
 
-            <Text pb={2}>Blimey! Chakra UI switches:</Text>
+            <Text pt={4} pb={2}>
+              Blimey! Chakra UI switches:
+            </Text>
             <Stack pb={2} align="center" direction="row">
               <Switch size="sm" colorScheme="teal" />
               <Switch size="md" colorScheme="purple" />
               <Switch size="lg" colorScheme="pink" />
             </Stack>
 
-            <Text pb={2}>
+            <Text py={2}>
               Damn, yo! Composed Chakra UI components for displaying data:
             </Text>
             <Flex pb={2}>
@@ -209,8 +211,24 @@ function Home() {
           </Stack>
         </Container>
         <Divider />
-        <Text>
+        <Text textAlign="center">
           Made with ✨ by{' '}
+          <Link
+            href="https://www.kahlillechelt.com"
+            isExternal
+            textDecoration="underline"
+          >
+            Kahlil Lechelt
+          </Link>{' '}
+          &bull;{' '}
+          <Link
+            href="https://github.com/kahlil/dark"
+            isExternal
+            textDecoration="underline"
+          >
+            github/kahlil/dark
+          </Link>{' '}
+          &bull;{' '}
           <Link
             href="https://twitter.com/kahliltweets"
             isExternal
