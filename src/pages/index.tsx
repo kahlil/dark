@@ -158,6 +158,18 @@ function Home() {
                 <Text fontSize="sm">UI Engineer, creator of Chakra UI</Text>
               </Box>
             </Flex>
+
+            <Text py={2}>
+              See the code for the examples above in the{' '}
+              <Link
+                href="https://github.com/kahlil/dark/blob/main/src/pages/index.tsx"
+                isExternal
+                textDecoration="underline"
+              >
+                source code
+              </Link>
+              .
+            </Text>
           </Stack>
         </Container>
 
