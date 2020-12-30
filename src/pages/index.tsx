@@ -206,13 +206,29 @@ function Home() {
               >
                 pretty-quick
               </Link>{' '}
-              and{' '}
+              ,{' '}
               <Link
                 href="https://typicode.github.io/husky"
                 isExternal
                 textDecoration="underline"
               >
                 Husky
+              </Link>{' '}
+              ,
+              <Link
+                href="https://jestjs.io/"
+                isExternal
+                textDecoration="underline"
+              >
+                Jest
+              </Link>
+              , and{' '}
+              <Link
+                href="https://testing-library.com/"
+                isExternal
+                textDecoration="underline"
+              >
+                Testing Library
               </Link>
               .
             </Text>

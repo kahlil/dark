@@ -22,6 +22,8 @@ The tech stack of this template includes
 - [ESLint](https://eslint.org/)
 - [pretty-quick](https://github.com/azz/pretty-quick)
 - [Husky](https://typicode.github.io/husky)
+- [Jest](https://jestjs.io/)
+- [Testing Library](https://testing-library.com/)
 
 Minimally configured, mostly using defaults provided by the community or the creators.
 
