@@ -6,11 +6,10 @@ Hit the ground running with one `yarn install`.
 
 ## Getting Started
 
-1. Click the "Use this template" button in order to use this repo as a template
-2. Clone your newly created repo
-3. Run `yarn install`
-4. Run `yarn dev` to start the app
-5. Hit the ground running
+1. Generate a repository with this template by clicking on the "Use this template" button on the top right or on [github.com/kahlil/dark/generate](https://github.com/kahlil/dark/generate)
+2. Clone your new repository
+3. Run yarn install
+4. Hit the ground running with Next.js, TypeScript & Chakra UI with the dark theme as the default
 
 ## Documentation
 
@@ -21,6 +20,8 @@ The tech stack of this template includes
 - [TypeScript](https://www.typescriptlang.org/)
 - [Prettier](https://prettier.io/)
 - [ESLint](https://eslint.org/)
+- [pretty-quick](https://github.com/azz/pretty-quick)
+- [Husky](https://typicode.github.io/husky)
 
 Minimally configured, mostly using defaults provided by the community or the creators.
 
