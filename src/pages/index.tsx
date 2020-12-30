@@ -8,7 +8,7 @@ function Home() {
           Dark
         </Heading>
         <Text fontSize="3xl" textAlign="center">
-          An opinated, dark-themed Next.js &amp; Chakra UI GitHub repository
+          An opinionated, dark-themed Next.js &amp; Chakra UI GitHub repository
           template
         </Text>
         <Text>
