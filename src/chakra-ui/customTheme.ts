@@ -1,6 +1,6 @@
-import { extendTheme, ColorMode } from '@chakra-ui/react'
+import { extendTheme, ThemeConfig } from '@chakra-ui/react'
 
-const config: { useSystemColorMode: boolean; initialColorMode: ColorMode } = {
+const config: Partial<ThemeConfig> = {
   useSystemColorMode: false,
   initialColorMode: 'dark',
 }
